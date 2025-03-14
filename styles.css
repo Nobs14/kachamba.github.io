@@ -149,7 +149,7 @@ main {
     padding: 0;
     display: flex;
     justify-content: center; /* Center the social media icons */
-    gap: 20px;
+    gap: 15px;
 }
 
 .social-media li {
@@ -163,7 +163,7 @@ main {
 }
 
 .social-media a .fab {
-    font-size: 28px; /* Adjust the size of the icons */
+    font-size: 24px; /* Adjust the size of the icons */
 }
 
 .social-media a.facebook {
