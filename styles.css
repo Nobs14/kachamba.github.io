@@ -1,0 +1,219 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('b.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #800000; /* Maroon color */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    position: relative;
+}
+
+header {
+    background-color: #800000; /* Maroon color */
+    color: #F5F5DC; /* Beige color */
+    padding: 10px 0;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the header content */
+    padding: 0 20px;
+    position: relative;
+}
+
+.logo {
+    height: 80px; /* Increase the logo size */
+    width: 80px; /* Ensure the logo is square */
+    border-radius: 50%; /* Make the logo rounded */
+    position: absolute;
+    left: 20px; /* Adjust the position of the logo */
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the navigation */
+    width: 100%;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #F5F5DC; /* Beige color */
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: white; /* Change color on hover */
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(245, 245, 220, 0.8); /* Beige color with transparency */
+    border-radius: 10px;
+    margin: 20px;
+}
+
+#hero {
+    background-color: rgba(128, 0, 0, 0.8); /* Maroon color with transparency */
+    color: #F5F5DC; /* Beige color */
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#hero .btn {
+    background-color: #F5F5DC; /* Beige color */
+    color: #800000; /* Maroon color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#introduction {
+    background-color: rgba(245, 245, 220, 0.8); /* Beige color with transparency */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#events {
+    background: rgba(245, 245, 220, 0.8); /* Beige color with transparency */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #110303; /* Beige color */
+}
+
+.event-partition {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center; /* Center items vertically */
+}
+
+.event {
+    flex: 1;
+    min-width: 300px;
+    background-color: rgba(245, 245, 220, 0.8); /* Beige color with transparency */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.event img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.event video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+#contact {
+    background-color: rgba(245, 245, 220, 0.8); /* Beige color with transparency */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #110303; /* Beige color */
+    text-align: center;
+}
+
+#about {
+    background-color: rgba(245, 245, 220, 0.8); /* Beige color with transparency */
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #110303; /* Beige color */
+}
+
+.social-media {
+    list-style: none;
+    padding: 50px;
+    display: flex;
+    justify-content: center; /* Center the social media icons */
+    gap: 20px;
+}
+
+.social-media li {
+    display: inline-block;
+}
+
+.social-media a {
+    text-decoration: none;
+    font-size: 24px; /* Reduce the size of the icons */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.social-media a .fab {
+    font-size: 36px; /* Increase the size of the icons */
+}
+
+.social-media a.facebook {
+    color: #3b5998; /* Facebook blue */
+}
+
+.social-media a.youtube {
+    color: #FF0000; /* YouTube red */
+}
+
+.social-media a.tiktok {
+    color: #000000; /* TikTok black */
+}
+
+.social-media a.spotify {
+    color: #1DB954; /* Spotify green */
+}
+
+.footer-nav {
+    margin: 20px 0;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; /* Space out the navigation links */
+}
+
+.footer-nav ul li {
+    display: inline-block;
+}
+
+.footer-nav ul li a {
+    color: #F5F5DC; /* Beige color */
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.footer-nav ul li a:hover {
+    color: white; /* Change color on hover */
+}
+
+footer {
+    background-color: #800000; /* Maroon color */
+    color: #F5F5DC; /* Beige color */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
