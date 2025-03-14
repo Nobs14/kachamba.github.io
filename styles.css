@@ -146,7 +146,7 @@ main {
 
 .social-media {
     list-style: none;
-    padding: 50px;
+    padding: 0;
     display: flex;
     justify-content: center; /* Center the social media icons */
     gap: 20px;
@@ -158,12 +158,12 @@ main {
 
 .social-media a {
     text-decoration: none;
-    font-size: 24px; /* Reduce the size of the icons */
+    font-size: 20px; /* Adjust the size of the icons */
     transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 .social-media a .fab {
-    font-size: 36px; /* Increase the size of the icons */
+    font-size: 28px; /* Adjust the size of the icons */
 }
 
 .social-media a.facebook {
@@ -215,6 +215,6 @@ footer {
     padding: 2px 0;
     position: fixed;
     width: 100%;
-   height: 50px;
+    height: 50px;
     bottom: 0;
 }
